@@ -4,6 +4,7 @@
 
 ```
 $ touch ~/dev/.gitmessage.txt
+$ vim ~/dev/.gitmessage.txt
 $ git config --global commit.template ~/dev/.gitmessage.txt
 ```
 
