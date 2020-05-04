@@ -3,6 +3,8 @@
 ## Usage
 
 ```
+$ git clone git@github.com:mochizuki-pg/git_commit_message_prefix.git
+$ cd git_commit_message_prefix
 $ mv .gitmessage.txt path_to_your_commit_template
 $ git config --global commit.template path_to_your_commit_template
 or
