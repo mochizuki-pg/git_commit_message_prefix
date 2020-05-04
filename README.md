@@ -1,6 +1,13 @@
 # git_commit_message_prefix
 
-## Etc.
+## Usage
+
+```
+$ touch ~/.gitmessage.txt
+$ git config --global commit.template ~/.gitmessage.txt
+```
+
+## Etc
 
 
 Commit types originally from:
