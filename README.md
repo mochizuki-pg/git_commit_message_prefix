@@ -3,9 +3,10 @@
 ## Usage
 
 ```
-$ touch ~/dev/.gitmessage.txt
-$ vim ~/dev/.gitmessage.txt
-$ git config --global commit.template ~/dev/.gitmessage.txt
+$ mv .gitmessage.txt path_to_your_commit_template
+$ git config --global commit.template path_to_your_commit_template
+or
+$ git config --local commit.template path_to_your_commit_template
 ```
 
 ## Etc
